@@ -836,3 +836,31 @@ ul { padding-left: 1.2rem; }
 .card-body {
   padding: 20px;
 }
+
+.ad-top,
+.ad-footer {
+  margin: 20px 0;
+}
+
+.ad-top .container,
+.ad-footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.ad-box {
+  width: 970px;
+  max-width: 100%;
+  min-height: 90px;
+  background: #ece7df;
+  border: 1px dashed #8b6244;
+  color: #6b4c35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px;
+}
