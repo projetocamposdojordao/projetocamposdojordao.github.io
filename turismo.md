@@ -5,6 +5,14 @@ permalink: /turismo/
 description: Guias, dicas e roteiros sobre turismo em Campos do Jordão.
 ---
 
+<section class="top-ad">
+  <div class="container">
+    <a href="#" class="ad-box ad-box--top">
+      <span>Banner Turismo 970x90</span>
+    </a>
+  </div>
+</section>
+
 <section class="page-hero compact">
   <div class="container">
     <div class="breadcrumbs">
