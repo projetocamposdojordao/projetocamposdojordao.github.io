@@ -1,18 +1,72 @@
----
-layout: default
----
-<section class="page-hero compact">
-  <div class="container">
-    <div class="breadcrumbs"><a href="/">Início</a> <span>/</span> <span>{{ page.category | default: 'Post' }}</span></div>
-    <p class="eyebrow">{{ page.category | default: 'Artigo' }}</p>
-    <h1>{{ page.title }}</h1>
-    <p class="lead">{% if page.description %}{{ page.description }}{% endif %}</p>
-    <p class="post-meta">Publicado em {{ page.date | date: "%d/%m/%Y" }}</p>
-  </div>
-</section>
+const response = await client.chat.completions.create({
+  model: "gpt-5-mini",
+  messages: [
+    {
+      role: "developer",
+      content:
+        "Você é um redator especializado em SEO local. Escreva em português do Brasil. Gere conteúdo útil, claro e bem organizado sobre Campos do Jordão. Não invente preços, horários, telefones ou dados específicos não fornecidos. Responda apenas em JSON válido."
+    },
+    {
+      role: "user",
+      content: `Crie um artigo completo em português do Brasil sobre o tema: "${keyword}".
 
-<section class="content-section">
-  <div class="container narrow prose">
-    {{ content }}
-  </div>
-</section>
+Regras:
+- artigo entre 1200 e 2000 palavras
+- markdown compatível com Jekyll
+- incluir H2 e H3
+- parágrafos bem distribuídos
+- tom casual, informativo e com autoridade
+- otimizado para SEO local
+- não inventar preços, horários, telefones ou fatos específicos não fornecidos
+- inserir uma imagem em markdown a cada 2 ou 3 parágrafos
+- usar imagens neste formato: ![descrição](/assets/images/SLUG-X.jpg)
+- substituir X por 1, 2, 3...
+- usar "SLUG" como placeholder temporário
+- não incluir front matter
+- não usar HTML
+- responder somente com os campos do JSON solicitado`
+    }
+  ],
+  response_format: {
+    type: "json_schema",
+    json_schema: {
+      name: "jekyll_article",
+      strict: true,
+      schema: {
+        type: "object",
+        properties: {
+          title: { type: "string" },
+          description: { type: "string" },
+          category: { type: "string" },
+          tags: {
+            type: "array",
+            items: { type: "string" }
+          },
+          content: { type: "string" }
+        },
+        required: ["title", "description", "category", "tags", "content"],
+        additionalProperties: false
+      }
+    }
+  }
+});
+
+const article = JSON.parse(response.choices[0].message.content);
+const slug = slugify(article.title);
+const date = today();
+const filename = `${date}-${slug}.md`;
+const filepath = path.join(postsDir, filename);
+
+const contentWithRealSlug = article.content.replaceAll("SLUG", slug);
+
+const markdown = `---
+layout: post
+title: "${escapeQuotes(article.title)}"
+description: "${escapeQuotes(article.description)}"
+category: ${article.category || category}
+tags: [${(article.tags || []).join(", ")}]
+image: /assets/images/${slug}-1.jpg
+---
+
+${contentWithRealSlug}
+`;
