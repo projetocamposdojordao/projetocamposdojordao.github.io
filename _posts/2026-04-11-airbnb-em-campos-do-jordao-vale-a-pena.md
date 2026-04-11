@@ -6,7 +6,7 @@ category: Hospedagem
 tags: [Campos do Jordão, Airbnb, Hospedagem, Turismo, Dicas]
 ---
 
-Introdução
+
 
 Campos do Jordão é um dos destinos mais procurados por quem busca clima de montanha, gastronomia e contato com a natureza. Muitos viajantes consideram alugar um Airbnb como alternativa a hotéis e pousadas. Mas será que Airbnb em Campos do Jordão vale a pena? Este artigo apresenta prós, contras e orientações práticas para ajudar você a decidir.
 
