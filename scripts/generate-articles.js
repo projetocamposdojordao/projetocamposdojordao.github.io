@@ -47,13 +47,13 @@ for (const item of items) {
       {
         role: "developer",
         content:
-          "Você é um redator especializado em SEO local. Escreva em português do Brasil. Gere conteúdo útil, claro e bem organizado sobre Campos do Jordão. Não invente preços, horários, telefones ou dados específicos não fornecidos. Responda apenas em JSON válido."
+          "Você é um redator especializado em SEO local. Escreva em português do Brasil. Gere conteúdo útil, claro e bem organizado sobre Campos do Jordão. Não invente preços, horários, telefones ou dados específicos não fornecidos. Responda apenas em JSON válido. Seja criativo."
       },
       {
         role: "user",
         content: `Crie um artigo sobre o tema: "${keyword}". 
 O artigo deve ser pensado para um site em Jekyll sobre Campos do Jordão.
-Quero introdução, subtítulos H2, conclusão e FAQ curto.`
+Quero introdução, subtítulos H2, conclusão e FAQ curto. Busque escrever artigos longos, com o máximo de informações possíveis.`
       }
     ],
     response_format: {
