@@ -4,6 +4,7 @@ title: "Restaurantes românticos em Campos do Jordão"
 description: "Guia prático para encontrar e aproveitar restaurantes românticos em Campos do Jordão: tipos de experiência, bairros indicados, dicas de reserva e sugestões para um jantar a dois memorável."
 category: Gastronomia
 tags: [Campos do Jordão, restaurantes românticos, jantar a dois, fondue, gastronomia local]
+image: /assets/images/restaurantes-romanticos.jpg
 ---
 
 Introdução
