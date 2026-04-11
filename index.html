@@ -1,73 +1,231 @@
 ---
 layout: default
 title: Início
-description: Portal com notícias, turismo, eventos e guias sobre Campos do Jordão.
+description: Portal com notícias, turismo, eventos, gastronomia e guias sobre Campos do Jordão.
 ---
-<section class="hero-banner">
-  <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">Serra, turismo e contexto local</p>
-      <h1>Campos do Jordão em um portal bonito, simples e pronto para crescer</h1>
-      <p class="lead">Publique notícias, roteiros, agenda cultural e dicas da cidade direto pelo GitHub, sem complicação.</p>
+
+<section class="top-ad">
+  <div class="container">
+    <a href="#" class="ad-box ad-box--top">
+      <span>Banner topo 1200x200</span>
+    </a>
+  </div>
+</section>
+
+<section class="hero-banner portal-hero">
+  <div class="container hero-grid hero-grid-portal">
+    <div class="hero-main">
+      <p class="eyebrow">Portal de notícias e turismo</p>
+      <h1>Campos do Jordão: notícias, roteiros, eventos e o melhor da cidade em um só lugar</h1>
+      <p class="lead">
+        Um portal visual, prático e preparado para crescer, com conteúdos sobre turismo, gastronomia,
+        agenda cultural, hospedagem e tudo que movimenta Campos do Jordão.
+      </p>
+
       <div class="hero-actions">
-        <a class="btn btn-primary" href="/noticias/">Ver notícias</a>
-        <a class="btn btn-secondary" href="/turismo/">Explorar turismo</a>
+        <a class="btn btn-primary" href="#ultimas-noticias">Últimas notícias</a>
+        <a class="btn btn-secondary" href="#guias-rapidos">Explorar guias</a>
       </div>
     </div>
-    <aside class="feature-panel">
-      <h2>Destaques do portal</h2>
-      <ul>
-        <li>Layout editorial com cores verde e marrom</li>
-        <li>Páginas prontas para notícias, turismo e eventos</li>
-        <li>Posts em Markdown para facilitar publicação</li>
+
+    <aside class="feature-panel portal-panel">
+      <h2>Acesso rápido</h2>
+      <ul class="quick-links">
+        <li><a href="/noticias/">Notícias de Campos do Jordão</a></li>
+        <li><a href="/turismo/">Turismo e roteiros</a></li>
+        <li><a href="/eventos/">Eventos e agenda cultural</a></li>
+        <li><a href="/gastronomia/">Restaurantes e cafés</a></li>
+        <li><a href="/hospedagem/">Hotéis e pousadas</a></li>
+        <li><a href="/clima/">Clima e temperaturas</a></li>
       </ul>
     </aside>
   </div>
 </section>
 
-<section class="content-section">
+<section class="content-section quick-nav-section" id="guias-rapidos">
   <div class="container">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Últimos conteúdos</p>
-        <h2>Posts recentes</h2>
+        <p class="eyebrow">Navegação do portal</p>
+        <h2>Comece por aqui</h2>
       </div>
     </div>
-    <div class="cards-grid">
-      {% for post in site.posts limit:6 %}
-      <article class="card">
-        <p class="tag">{{ post.category | default: 'Artigo' }}</p>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p>{{ post.description }}</p>
-        <div class="card-footer">
-          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-          <a href="{{ post.url }}">Ler mais</a>
-        </div>
-      </article>
-      {% endfor %}
+
+    <div class="quick-nav-grid">
+      <a class="quick-nav-card" href="/noticias/">
+        <h3>Notícias</h3>
+        <p>Acompanhe novidades da cidade, atualizações locais e pautas relevantes.</p>
+      </a>
+
+      <a class="quick-nav-card" href="/turismo/">
+        <h3>Turismo</h3>
+        <p>Roteiros, passeios, atrações e ideias para curtir Campos do Jordão.</p>
+      </a>
+
+      <a class="quick-nav-card" href="/eventos/">
+        <h3>Eventos</h3>
+        <p>Programação cultural, agenda do fim de semana e eventos sazonais.</p>
+      </a>
+
+      <a class="quick-nav-card" href="/gastronomia/">
+        <h3>Gastronomia</h3>
+        <p>Restaurantes, cafés, chocolaterias, bares e onde comer bem.</p>
+      </a>
+
+      <a class="quick-nav-card" href="/hospedagem/">
+        <h3>Hospedagem</h3>
+        <p>Hotéis, pousadas, chalés e dicas de onde ficar.</p>
+      </a>
+
+      <a class="quick-nav-card" href="/clima/">
+        <h3>Clima</h3>
+        <p>Temperatura por mês, frio, inverno e melhor época para visitar.</p>
+      </a>
     </div>
+  </div>
+</section>
+
+<section class="content-section gallery-section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Galeria visual</p>
+        <h2>Campos do Jordão em imagens</h2>
+      </div>
+    </div>
+
+    <div class="photo-gallery">
+      <a href="#" class="gallery-item">
+        <img src="/assets/images/galeria-1.jpg" alt="Vista de Campos do Jordão">
+      </a>
+      <a href="#" class="gallery-item">
+        <img src="/assets/images/galeria-2.jpg" alt="Capivari em Campos do Jordão">
+      </a>
+      <a href="#" class="gallery-item">
+        <img src="/assets/images/galeria-3.jpg" alt="Arquitetura de Campos do Jordão">
+      </a>
+      <a href="#" class="gallery-item">
+        <img src="/assets/images/galeria-4.jpg" alt="Paisagem serrana em Campos do Jordão">
+      </a>
+      <a href="#" class="gallery-item">
+        <img src="/assets/images/galeria-5.jpg" alt="Parque e natureza em Campos do Jordão">
+      </a>
+      <a href="#" class="gallery-item">
+        <img src="/assets/images/galeria-6.jpg" alt="Centro turístico de Campos do Jordão">
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="content-section portal-news-section" id="ultimas-noticias">
+  <div class="container portal-news-layout">
+    <div class="portal-news-main">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Cobertura e conteúdo</p>
+          <h2>Últimos 18 posts</h2>
+        </div>
+      </div>
+
+      <div class="cards-grid portal-cards">
+        {% assign latest_posts = site.posts | slice: 0, 18 %}
+        {% for post in latest_posts %}
+          {% if forloop.index == 7 %}
+            <div class="inline-ad-wrapper">
+              <a href="#" class="ad-box ad-box--inline">
+                <span>Banner entre notícias 970x250</span>
+              </a>
+            </div>
+          {% endif %}
+
+          <article class="card portal-card">
+            {% if post.image %}
+              <a href="{{ post.url }}">
+                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="card-thumb">
+              </a>
+            {% endif %}
+
+            <div class="card-body">
+              <p class="tag">{{ post.category | default: 'Artigo' }}</p>
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+              {% if post.description %}
+                <p>{{ post.description }}</p>
+              {% endif %}
+
+              <div class="card-footer">
+                <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+                <a href="{{ post.url }}">Ler mais</a>
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    <aside class="portal-sidebar">
+      <a href="#" class="ad-box ad-box--sidebar">
+        <span>Banner lateral 300x600</span>
+      </a>
+
+      <div class="sidebar-box">
+        <p class="eyebrow">Linkagem interna</p>
+        <h3>Páginas estratégicas</h3>
+        <ul>
+          <li><a href="/o-que-fazer-em-campos-do-jordao/">O que fazer em Campos do Jordão</a></li>
+          <li><a href="/campos-do-jordao-no-inverno/">Campos do Jordão no inverno</a></li>
+          <li><a href="/onde-ficar-em-campos-do-jordao/">Onde ficar em Campos do Jordão</a></li>
+          <li><a href="/melhores-restaurantes-em-campos-do-jordao/">Melhores restaurantes</a></li>
+          <li><a href="/eventos-em-campos-do-jordao/">Eventos em Campos do Jordão</a></li>
+          <li><a href="/temperatura-em-campos-do-jordao/">Temperatura em Campos do Jordão</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box">
+        <p class="eyebrow">Conteúdo útil</p>
+        <h3>Temas mais procurados</h3>
+        <ul>
+          <li><a href="/campos-do-jordao-com-criancas/">Campos do Jordão com crianças</a></li>
+          <li><a href="/lua-de-mel-em-campos-do-jordao/">Lua de mel em Campos do Jordão</a></li>
+          <li><a href="/restaurantes-romanticos-em-campos-do-jordao/">Restaurantes românticos</a></li>
+          <li><a href="/bares-com-musica-ao-vivo-em-campos-do-jordao/">Bares com música ao vivo</a></li>
+          <li><a href="/como-chegar-em-campos-do-jordao/">Como chegar em Campos do Jordão</a></li>
+          <li><a href="/melhor-epoca-para-visitar-campos-do-jordao/">Melhor época para visitar</a></li>
+        </ul>
+      </div>
+    </aside>
   </div>
 </section>
 
 <section class="content-section tinted">
   <div class="container three-cols">
     <div class="info-box">
-      <p class="eyebrow">Notícias</p>
-      <h3>Atualizações da cidade</h3>
-      <p>Cobertura local, novidades, pautas de turismo e assuntos relevantes para moradores e visitantes.</p>
-      <a href="/noticias/">Ir para notícias</a>
-    </div>
-    <div class="info-box">
       <p class="eyebrow">Turismo</p>
-      <h3>Guias e roteiros</h3>
-      <p>Conteúdo evergreen sobre passeios, bairros, gastronomia, clima e experiências em Campos do Jordão.</p>
-      <a href="/turismo/">Ir para turismo</a>
+      <h3>Roteiros e passeios</h3>
+      <p>Descubra atrações, bairros, parques, mirantes e experiências para diferentes perfis de viagem.</p>
+      <a href="/turismo/">Ver turismo</a>
     </div>
+
     <div class="info-box">
-      <p class="eyebrow">Eventos</p>
-      <h3>Agenda cultural</h3>
-      <p>Páginas preparadas para publicar programação, festivais, eventos sazonais e agenda do fim de semana.</p>
-      <a href="/eventos/">Ir para eventos</a>
+      <p class="eyebrow">Gastronomia</p>
+      <h3>Onde comer bem</h3>
+      <p>Restaurantes, fondue, cafés, chocolaterias, cervejarias e opções para casais e famílias.</p>
+      <a href="/gastronomia/">Ver gastronomia</a>
     </div>
+
+    <div class="info-box">
+      <p class="eyebrow">Hospedagem</p>
+      <h3>Onde se hospedar</h3>
+      <p>Hotéis, pousadas e chalés com foco em localização, conforto e experiência.</p>
+      <a href="/hospedagem/">Ver hospedagem</a>
+    </div>
+  </div>
+</section>
+
+<section class="bottom-ad">
+  <div class="container">
+    <a href="#" class="ad-box ad-box--footer">
+      <span>Banner rodapé 1200x200</span>
+    </a>
   </div>
 </section>
