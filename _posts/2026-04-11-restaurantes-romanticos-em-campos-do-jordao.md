@@ -7,8 +7,6 @@ tags: [Campos do Jordão, restaurantes românticos, jantar a dois, fondue, gastr
 image: /assets/images/restaurantes-romanticos.jpg
 ---
 
-Introdução
-
 Campos do Jordão é um dos destinos mais procurados para escapadas românticas no Brasil. Conhecida pelo clima ameno, arquitetura charmosa e pela rica cena gastronômica, a cidade oferece opções que vão desde bistrôs aconchegantes com lareira até restaurantes com vistas panorâmicas da serra. Neste artigo você encontrará orientações para escolher o restaurante ideal, tipos de experiências disponíveis, dicas práticas e um FAQ rápido para organizar sua noite a dois.
 
 ## Como escolher um restaurante romântico
