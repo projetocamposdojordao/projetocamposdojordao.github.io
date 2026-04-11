@@ -3,6 +3,7 @@ layout: default
 title: Início
 description: Portal com notícias, turismo, eventos e guias sobre Campos do Jordão.
 ---
+
 <section class="top-ad">
   <div class="container">
     <a href="#" class="ad-box ad-box--top">
@@ -43,7 +44,6 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
     </div>
 
     <div class="portal-nav-grid">
-
       <a href="/noticias/" class="portal-nav-item">
         <h3>Notícias</h3>
         <p>Atualizações da cidade, novidades e conteúdos locais relevantes.</p>
@@ -73,7 +73,6 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
         <h3>Clima</h3>
         <p>Temperatura, inverno e melhor época para visitar.</p>
       </a>
-
     </div>
   </div>
 </section>
@@ -88,46 +87,42 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
         </div>
       </div>
 
-    <div class="cards-grid portal-cards">
-  {% assign latest_posts = site.posts | slice: 0, 18 %}
-  {% for post in latest_posts %}
+      <div class="cards-grid portal-cards">
+        {% for post in site.posts limit:18 %}
 
-    {% if forloop.index == 7 %}
-      <div class="inline-ad-wrapper">
-        <a href="#" class="ad-box ad-box--inline">
-          <span>Banner entre notícias 970x250</span>
-        </a>
-      </div>
-    {% endif %}
+          {% if forloop.index == 7 %}
+            <div class="inline-ad-wrapper">
+              <a href="#" class="ad-box ad-box--inline">
+                <span>Banner entre notícias 970x250</span>
+              </a>
+            </div>
+          {% endif %}
 
-    <article class="card">
+          <article class="card portal-card">
+            {% if post.image %}
+              <a href="{{ post.url }}" class="card-thumb">
+                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+              </a>
+            {% endif %}
 
-      {% if post.image %}
-        <a href="{{ post.url }}" class="card-thumb">
-          <img src="{{ post.image }}" alt="{{ post.title }}">
-        </a>
-      {% endif %}
+            <div class="card-body">
+              <p class="tag">{{ post.category | default: 'Artigo' }}</p>
 
-      <div class="card-body">
-        <p class="tag">{{ post.category }}</p>
+              <h3>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
 
-        <h3>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h3>
+              {% if post.description %}
+                <p>{{ post.description }}</p>
+              {% endif %}
 
-        <p>{{ post.description }}</p>
-
-        <div class="card-footer">
-          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-          <a href="{{ post.url }}">Ler mais</a>
-        </div>
-      </div>
-
-    </article>
-
-  {% endfor %}
-</div>
+              <div class="card-footer">
+                <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+                <a href="{{ post.url }}">Ler mais</a>
+              </div>
+            </div>
           </article>
+
         {% endfor %}
       </div>
     </div>
