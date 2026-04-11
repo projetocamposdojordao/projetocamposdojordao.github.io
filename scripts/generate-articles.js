@@ -52,8 +52,52 @@ for (const item of items) {
       {
         role: "user",
         content: `Crie um artigo sobre o tema: "${keyword}". 
-O artigo deve ser pensado para um site em Jekyll sobre Campos do Jordão.
-Quero introdução, subtítulos H2, conclusão e FAQ curto. Busque escrever artigos longos, com o máximo de informações possíveis.`
+Crie um artigo completo em português sobre o tema: "{{KEYWORD}}"
+
+Regras:
+
+- O artigo deve ter entre 1200 e 2000 palavras
+- Estrutura em markdown compatível com Jekyll
+- Incluir título (H1), subtítulos (H2 e H3)
+- Parágrafos bem distribuídos
+- Tom casual, informativo e com autoridade
+- Otimizado para SEO
+
+IMAGENS:
+
+- A cada 2 ou 3 parágrafos, inserir uma imagem
+- Use o seguinte formato padrão:
+
+![Descrição da imagem](/assets/images/{{slug}}-X.jpg)
+
+- Substituir X por 1, 2, 3...
+- A descrição deve ser natural e relacionada ao conteúdo
+
+Exemplo:
+![Vista de Campos do Jordão no inverno](/assets/images/campos-do-jordao-inverno-1.jpg)
+
+IMPORTANTE:
+
+- NÃO usar imagens externas (Unsplash, etc)
+- NÃO usar HTML
+- Apenas markdown puro
+- As imagens devem parecer parte natural do conteúdo
+
+SLUG:
+
+- Gerar automaticamente baseado no título do artigo
+- Ex: campos-do-jordao-no-inverno
+
+FRONT MATTER:
+
+---
+layout: post
+title: "{{TITULO}}"
+date: {{DATA}}
+categories: [blog]
+image: /assets/images/{{slug}}-1.jpg
+---
+`
       }
     ],
     response_format: {
