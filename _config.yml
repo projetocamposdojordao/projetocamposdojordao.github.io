@@ -4,10 +4,9 @@ url: "https://projetocamposdojordao.github.io"
 baseurl: ""
 lang: pt-BR
 timezone: America/Sao_Paulo
-future: true
 markdown: kramdown
 permalink: /:title/
-
+plugins: []
 collections:
   posts:
     output: true
