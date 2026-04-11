@@ -8,6 +8,58 @@
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  {{ content }}
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/">
+        <span class="logo-mark">CJ</span>
+        <span class="logo-text">
+          <strong>Campos do Jordão</strong>
+          <small>Portal local</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Principal">
+        <a href="/">Início</a>
+        <a href="/noticias/">Notícias</a>
+        <a href="/turismo/">Turismo</a>
+        <a href="/eventos/">Eventos</a>
+        <a href="/sobre/">Sobre</a>
+        <a href="/contato/">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Campos do Jordão</h3>
+        <p>Portal com notícias, agenda, turismo e conteúdo local sobre a cidade.</p>
+      </div>
+      <div>
+        <h3>Seções</h3>
+        <ul>
+          <li><a href="/noticias/">Notícias</a></li>
+          <li><a href="/turismo/">Turismo</a></li>
+          <li><a href="/eventos/">Eventos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Institucional</h3>
+        <ul>
+          <li><a href="/sobre/">Sobre</a></li>
+          <li><a href="/contato/">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© {{ "now" | date: "%Y" }} {{ site.title }}. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
