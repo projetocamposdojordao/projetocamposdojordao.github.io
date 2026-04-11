@@ -4,9 +4,14 @@ title: Turismo
 permalink: /turismo/
 description: Guias, dicas e roteiros sobre turismo em Campos do Jordão.
 ---
+
 <section class="page-hero compact">
   <div class="container">
-    <div class="breadcrumbs"><a href="/">Início</a> <span>/</span> <span>Turismo</span></div>
+    <div class="breadcrumbs">
+      <a href="/">Início</a>
+      <span>/</span>
+      <span>Turismo</span>
+    </div>
     <p class="eyebrow">Guias e roteiros</p>
     <h1>Turismo em Campos do Jordão</h1>
     <p class="lead">Conteúdo para ajudar visitantes a entender melhor a cidade, seus bairros e suas experiências.</p>
@@ -15,16 +20,31 @@ description: Guias, dicas e roteiros sobre turismo em Campos do Jordão.
 
 <section class="content-section">
   <div class="container">
-    <div class="cards-grid">
+    <div class="cards-grid portal-cards">
       {% assign turismo = site.posts | where: "category", "Turismo" %}
       {% for post in turismo %}
-      <article class="card">
-        <p class="tag">{{ post.category }}</p>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p>{{ post.description }}</p>
-        <div class="card-footer">
-          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-          <a href="{{ post.url }}">Ler mais</a>
+      <article class="card portal-card">
+        {% if post.image %}
+          <a href="{{ post.url }}" class="card-thumb">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+          </a>
+        {% endif %}
+
+        <div class="card-body">
+          <p class="tag">{{ post.category | default: 'Turismo' }}</p>
+
+          <h3>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+
+          {% if post.description %}
+            <p>{{ post.description }}</p>
+          {% endif %}
+
+          <div class="card-footer">
+            <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+            <a href="{{ post.url }}">Ler mais</a>
+          </div>
         </div>
       </article>
       {% endfor %}
