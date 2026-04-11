@@ -10,16 +10,21 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+  {% endif %}
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  <!-- 🔝 Banner Topo -->
+  <!-- Banner topo -->
   <div class="ad-top">
-    <a href="#" class="ad-box">
-      <span>Banner Topo 970x90</span>
-    </a>
+    <div class="container">
+      <a href="#" class="ad-box">
+        <span>Banner Topo 970x90</span>
+      </a>
+    </div>
   </div>
-  
+
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="/">
@@ -44,6 +49,15 @@
   <main>
     {{ content }}
   </main>
+
+  <!-- Banner rodapé -->
+  <div class="ad-footer">
+    <div class="container">
+      <a href="#" class="ad-box">
+        <span>Banner Rodapé 970x90</span>
+      </a>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="container footer-grid">
