@@ -1,0 +1,12 @@
+title: Campos do Jordão
+description: Notícias, turismo, eventos e guias sobre Campos do Jordão
+url: "https://colecionarrelogios.github.io"
+baseurl: ""
+lang: pt-BR
+timezone: America/Sao_Paulo
+markdown: kramdown
+permalink: /:title/
+plugins: []
+collections:
+  posts:
+    output: true

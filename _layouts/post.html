@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section class="page-hero compact">
+  <div class="container">
+    <div class="breadcrumbs"><a href="/">Início</a> <span>/</span> <span>{{ page.category | default: 'Post' }}</span></div>
+    <p class="eyebrow">{{ page.category | default: 'Artigo' }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{% if page.description %}{{ page.description }}{% endif %}</p>
+    <p class="post-meta">Publicado em {{ page.date | date: "%d/%m/%Y" }}</p>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container narrow prose">
+    {{ content }}
+  </div>
+</section>

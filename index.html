@@ -1,0 +1,73 @@
+---
+layout: default
+title: Início
+description: Portal com notícias, turismo, eventos e guias sobre Campos do Jordão.
+---
+<section class="hero-banner">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Serra, turismo e contexto local</p>
+      <h1>Campos do Jordão em um portal bonito, simples e pronto para crescer</h1>
+      <p class="lead">Publique notícias, roteiros, agenda cultural e dicas da cidade direto pelo GitHub, sem complicação.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/noticias/">Ver notícias</a>
+        <a class="btn btn-secondary" href="/turismo/">Explorar turismo</a>
+      </div>
+    </div>
+    <aside class="feature-panel">
+      <h2>Destaques do portal</h2>
+      <ul>
+        <li>Layout editorial com cores verde e marrom</li>
+        <li>Páginas prontas para notícias, turismo e eventos</li>
+        <li>Posts em Markdown para facilitar publicação</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Últimos conteúdos</p>
+        <h2>Posts recentes</h2>
+      </div>
+    </div>
+    <div class="cards-grid">
+      {% for post in site.posts limit:6 %}
+      <article class="card">
+        <p class="tag">{{ post.category | default: 'Artigo' }}</p>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.description }}</p>
+        <div class="card-footer">
+          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+          <a href="{{ post.url }}">Ler mais</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="content-section tinted">
+  <div class="container three-cols">
+    <div class="info-box">
+      <p class="eyebrow">Notícias</p>
+      <h3>Atualizações da cidade</h3>
+      <p>Cobertura local, novidades, pautas de turismo e assuntos relevantes para moradores e visitantes.</p>
+      <a href="/noticias/">Ir para notícias</a>
+    </div>
+    <div class="info-box">
+      <p class="eyebrow">Turismo</p>
+      <h3>Guias e roteiros</h3>
+      <p>Conteúdo evergreen sobre passeios, bairros, gastronomia, clima e experiências em Campos do Jordão.</p>
+      <a href="/turismo/">Ir para turismo</a>
+    </div>
+    <div class="info-box">
+      <p class="eyebrow">Eventos</p>
+      <h3>Agenda cultural</h3>
+      <p>Páginas preparadas para publicar programação, festivais, eventos sazonais e agenda do fim de semana.</p>
+      <a href="/eventos/">Ir para eventos</a>
+    </div>
+  </div>
+</section>
