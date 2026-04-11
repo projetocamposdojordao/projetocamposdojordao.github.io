@@ -11,19 +11,17 @@ layout: default
 
     <p class="eyebrow">{{ page.category | default: 'Artigo' }}</p>
     <h1>{{ page.title }}</h1>
-    <p class="lead">{% if page.description %}{{ page.description }}{% endif %}</p>
+
+    {% if page.description %}
+    <p class="lead">{{ page.description }}</p>
+    {% endif %}
+
     <p class="post-meta">Publicado em {{ page.date | date: "%d/%m/%Y" }}</p>
   </div>
 </section>
 
 <section class="content-section">
   <div class="container narrow">
-    {% if page.image %}
-      <div class="featured-image">
-        <img src="{{ page.image }}" alt="{{ page.title }}">
-      </div>
-    {% endif %}
-
     <div class="prose">
       {{ content }}
     </div>
