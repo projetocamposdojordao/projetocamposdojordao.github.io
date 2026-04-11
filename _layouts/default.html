@@ -1,65 +1,66 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="/assets/style.css">
-</head>
-<body>
+---
+layout: default
+---
+<section class="top-ad">
+  <div class="container">
+    <a href="#" class="ad-box ad-box--top">
+      <span>Banner Topo 970x90</span>
+    </a>
+  </div>
+</section>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="/">
-        <span class="logo-mark">CJ</span>
-        <span class="logo-text">
-          <strong>Campos do Jordão</strong>
-          <small>Portal local</small>
-        </span>
-      </a>
+<section class="hero-banner post-hero">
+  <div class="container">
+    <div class="post-header-card">
+      {% if page.category %}
+        <p class="eyebrow">{{ page.category }}</p>
+      {% endif %}
 
-      <nav class="nav" aria-label="Principal">
-        <a href="/">Início</a>
-        <a href="/noticias/">Notícias</a>
-        <a href="/turismo/">Turismo</a>
-        <a href="/eventos/">Eventos</a>
-        <a href="/sobre/">Sobre</a>
-        <a href="/contato/">Contato</a>
-      </nav>
-    </div>
-  </header>
+      <h1>{{ page.title }}</h1>
 
-  <main>
-    {{ content }}
-  </main>
+      {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+      {% endif %}
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h3>Campos do Jordão</h3>
-        <p>Portal com notícias, agenda, turismo e conteúdo local sobre a cidade.</p>
-      </div>
-      <div>
-        <h3>Seções</h3>
-        <ul>
-          <li><a href="/noticias/">Notícias</a></li>
-          <li><a href="/turismo/">Turismo</a></li>
-          <li><a href="/eventos/">Eventos</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Institucional</h3>
-        <ul>
-          <li><a href="/sobre/">Sobre</a></li>
-          <li><a href="/contato/">Contato</a></li>
-        </ul>
+      <div class="post-meta-line">
+        <span>{{ page.date | date: "%d/%m/%Y" }}</span>
+        {% if page.tags %}
+          <span>•</span>
+          <span>
+            {% for tag in page.tags %}
+              {{ tag }}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </span>
+        {% endif %}
       </div>
     </div>
-    <div class="container footer-bottom">
-      <p>© {{ "now" | date: "%Y" }} {{ site.title }}. Todos os direitos reservados.</p>
-    </div>
-  </footer>
+  </div>
+</section>
 
-</body>
-</html>
+<section class="content-section">
+  <div class="container">
+    <div class="post-layout">
+      <article class="post-article card">
+        {% if page.image %}
+          <img
+            src="{{ page.image | relative_url }}"
+            alt="{{ page.title }}"
+            class="post-featured-image"
+          >
+        {% endif %}
+
+        <div class="post-content prose">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bottom-ad">
+  <div class="container">
+    <a href="#" class="ad-box ad-box--footer">
+      <span>Banner Rodapé 970x90</span>
+    </a>
+  </div>
+</section>
