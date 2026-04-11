@@ -11,12 +11,12 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}">
   {% endif %}
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  <!-- Banner topo -->
+
   <div class="ad-top">
     <div class="container">
       <a href="#" class="ad-box">
@@ -50,7 +50,6 @@
     {{ content }}
   </main>
 
-  <!-- Banner rodapé -->
   <div class="ad-footer">
     <div class="container">
       <a href="#" class="ad-box">
@@ -85,5 +84,6 @@
       <p>© {{ "now" | date: "%Y" }} {{ site.title }}. Todos os direitos reservados.</p>
     </div>
   </footer>
+
 </body>
 </html>
