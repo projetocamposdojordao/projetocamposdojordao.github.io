@@ -1,3 +1,5 @@
+console.log("API KEY existe?", !!process.env.OPENAI_API_KEY);
+
 import fs from "fs";
 import path from "path";
 import OpenAI from "openai";
