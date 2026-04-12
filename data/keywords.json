@@ -1,5 +1,5 @@
 [
-   {"keyword":"Morro do Elefante Campos do Jordão","category":"atracoes","intent":"navegacional","priority":"média"},
+     {"keyword":"Morro do Elefante Campos do Jordão","category":"atracoes","intent":"navegacional","priority":"média"},
   {"keyword":"mirante Morro do Elefante Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
   {"keyword":"como chegar no Morro do Elefante Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
   {"keyword":"teleférico Morro do Elefante Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
