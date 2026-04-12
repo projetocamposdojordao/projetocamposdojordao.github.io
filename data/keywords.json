@@ -1,3 +1,19 @@
 [
-  {"keyword":"Campos do Jordão o que fazer","category":"roteiros_e_atividades","intent":"informacional","priority":"média"}
+   {"keyword":"Morro do Elefante Campos do Jordão","category":"atracoes","intent":"navegacional","priority":"média"},
+  {"keyword":"mirante Morro do Elefante Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
+  {"keyword":"como chegar no Morro do Elefante Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
+  {"keyword":"teleférico Morro do Elefante Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
+  {"keyword":"ingresso teleférico Campos do Jordão","category":"atracoes","intent":"transacional","priority":"alta"},
+  {"keyword":"preço do teleférico Campos do Jordão","category":"atracoes","intent":"local","priority":"alta"},
+  {"keyword":"teleférico Parque Capivari Campos do Jordão","category":"atracoes","intent":"navegacional","priority":"média"},
+  {"keyword":"Parque Capivari Campos do Jordão","category":"atracoes","intent":"navegacional","priority":"média"},
+  {"keyword":"como chegar no Parque Capivari Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
+  {"keyword":"ingressos Parque Capivari Campos do Jordão","category":"atracoes","intent":"transacional","priority":"alta"},
+  {"keyword":"pedalinho Parque Capivari Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
+  {"keyword":"trenzinho Parque Capivari Campos do Jordão","category":"atracoes","intent":"informacional","priority":"alta"},
+  {"keyword":"eventos no Parque Capivari Campos do Jordão","category":"eventos_e_vida_noturna","intent":"informacional","priority":"alta"},
+  {"keyword":"Capivari Campos do Jordão","category":"bairros","intent":"informacional","priority":"média"},
+  {"keyword":"Vila Capivari Campos do Jordão","category":"bairros","intent":"navegacional","priority":"média"},
+  {"keyword":"onde estacionar no Capivari Campos do Jordão","category":"logistica","intent":"informacional","priority":"alta"},
+  {"keyword":"estacionamento em Capivari Campos do Jordão","category":"logistica","intent":"informacional","priority":"alta"}
 ]
