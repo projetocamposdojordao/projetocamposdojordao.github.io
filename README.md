@@ -1,6 +1,6 @@
 # Campos do Jordão - Jekyll Starter
 
-Estrutura pronta para GitHub Pages + Jekyll.
+Estrutura pronta para GitHub Pages + Jekyll!
 
 ## Como publicar novos posts
 
