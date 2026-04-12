@@ -1,4 +1,3 @@
-```json
 [
   {"keyword":"Campos do Jordão o que fazer","category":"roteiros_e_atividades","intent":"informacional","priority":"média"},
   {"keyword":"o que fazer em Campos do Jordão no inverno","category":"roteiros_e_atividades","intent":"informacional","priority":"alta"},
@@ -32,4 +31,3 @@
   {"keyword":"roteiro em Abernéssia Campos do Jordão","category":"bairros","intent":"informacional","priority":"alta"},
   {"keyword":"roteiro no Alto da Boa Vista Campos do Jordão","category":"bairros","intent":"informacional","priority":"alta"}
 ]
-```
