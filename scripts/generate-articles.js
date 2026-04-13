@@ -101,16 +101,19 @@ for (const item of items) {
     continue;
   }
 
-  const markdown = `---
+const markdown = `---
 layout: post
 title: "${escapeQuotes(article.title)}"
 description: "${escapeQuotes(article.description)}"
-category: ${escapeQuotes(article.category || category)}
+date: ${date} 10:00:00 -0300
+category: ${category.toLowerCase()}
+published: true
 tags:
 ${(article.tags || []).map(tag => `  - ${tag}`).join("\n")}
+image: /assets/images/${slug}-1.jpg
 ---
 
-${article.content}
+${contentWithRealSlug}
 `;
 
   const filepath = path.join(postsDir, filename);
