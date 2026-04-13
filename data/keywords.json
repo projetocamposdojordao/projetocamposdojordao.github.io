@@ -1,3 +1,5 @@
 [
-  {"keyword":"Villa Capivary Restaurante Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"alta"}
+  {"keyword":"Villa Capivary Restaurante Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"alta"},
+    {"keyword":"Hotel Savoy Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"média"},
+  {"keyword":"clima em Campos do Jordão hoje","category":"clima","intent":"informacional","priority":"alta"}
 ]
