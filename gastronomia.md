@@ -27,7 +27,7 @@ permalink: /gastronomia/
     </div>
 
     <div class="cards-grid portal-cards">
-      {% assign food_posts = site.posts | where_exp: "post", "post.categories contains 'gastronomia'" %}
+      {% assign food_posts = site.posts | where_exp: "post", "post.category contains 'gastronomia'" %}
       {% if food_posts.size == 0 %}
         <p>Ainda não há posts nesta categoria.</p>
       {% endif %}
