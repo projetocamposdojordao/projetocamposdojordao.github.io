@@ -2,7 +2,7 @@
 layout: post
 title: "Agenda cultural em Campos do Jordão"
 description: "Um modelo inicial para publicar programação, destaques culturais e eventos sazonais na cidade."
-category: Eventos
+category: Clima
 ---
 A agenda cultural pode se tornar uma das seções mais fortes do portal, especialmente em períodos de maior movimento turístico.
 
