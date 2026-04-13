@@ -2,7 +2,7 @@
 layout: post
 title: "Estacionamento em Capivari, Campos do Jordão"
 description: "Guia prático sobre opções, dicas e alternativas para estacionar em Capivari, o principal polo turístico de Campos do Jordão."
-category: Guia de Viagem
+category: turismo
 tags:
   - Capivari
   - Campos do Jordão
