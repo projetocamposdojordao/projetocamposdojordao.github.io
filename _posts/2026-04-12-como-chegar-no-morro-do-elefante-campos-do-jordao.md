@@ -2,7 +2,7 @@
 layout: post
 title: "Como chegar no Morro do Elefante — Campos do Jordão"
 description: "Guia prático para chegar ao Morro do Elefante em Campos do Jordão: opções de transporte, dicas de acesso a partir do centro (Capivari), informações sobre teleférico, estacionamento e cuidados para a visita."
-category: transporte-e-visita
+category: turismo
 tags:
   - Campos do Jordão
   - Morro do Elefante
