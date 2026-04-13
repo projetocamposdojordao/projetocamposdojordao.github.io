@@ -2,7 +2,7 @@
 layout: post
 title: "Pedalinho no Parque Capivari — Guia para aproveitar em Campos do Jordão"
 description: "Tudo o que você precisa saber para curtir o pedalinho no Parque Capivari, em Campos do Jordão: localização, o que esperar, dicas práticas, acessibilidade e atrações próximas."
-category: Passeios
+category: turismo
 tags:
   - Campos do Jordão
   - Parque Capivari
