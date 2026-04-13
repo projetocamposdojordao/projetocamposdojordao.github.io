@@ -2,7 +2,7 @@
 layout: post
 title: "Ingressos Parque Capivari — Guia prático para comprar e aproveitar em Campos do Jordão"
 description: "Tudo o que você precisa saber sobre ingressos do Parque Capivari em Campos do Jordão: onde comprar, tipos de ingresso, dicas para evitar filas, acessibilidade e FAQ rápido."
-category: Turismo/Visitar
+category: Turismo
 tags:
   - Campos do Jordão
   - Parque Capivari
