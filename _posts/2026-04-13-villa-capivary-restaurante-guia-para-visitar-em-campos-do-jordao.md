@@ -2,7 +2,9 @@
 layout: post
 title: "Villa Capivary Restaurante — Guia para visitar em Campos do Jordão"
 description: "Saiba o que esperar do Villa Capivary em Campos do Jordão: ambiente, estilo do cardápio, dicas práticas de visita, como chegar e perguntas frequentes para planejar sua refeição."
+date: 2026-04-12 10:00:00 -0300
 category: gastronomia
+published: true
 tags:
   - Villa Capivary
   - Campos do Jordão
