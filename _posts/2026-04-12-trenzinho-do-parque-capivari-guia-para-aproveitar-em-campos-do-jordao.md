@@ -2,7 +2,7 @@
 layout: post
 title: "Trenzinho do Parque Capivari — Guia para aproveitar em Campos do Jordão"
 description: "Guia prático e SEO local sobre o trenzinho do Parque Capivari em Campos do Jordão: o que esperar, rota, dicas de visita, acessibilidade e perguntas frequentes para planejar seu passeio."
-category: Passeios
+category: turismo
 tags:
   - Campos do Jordão
   - Parque Capivari
