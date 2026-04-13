@@ -11,7 +11,7 @@ permalink: /clima/
       <p class="eyebrow">Tempo e sazonalidade</p>
       <h1>Clima em Campos do Jordão</h1>
       <p class="lead">
-        Informações sobre temperatura, inverno, meses do ano e melhor época para visitar Campos do Jordão.
+        Informações sobre temperatura, inverno, meses do ano e melhor época para visitar a cidade de Campos do Jordão.
       </p>
     </div>
   </div>
