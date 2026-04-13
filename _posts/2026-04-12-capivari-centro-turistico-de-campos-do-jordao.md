@@ -2,7 +2,7 @@
 layout: post
 title: "Capivari — Centro turístico de Campos do Jordão"
 description: "Guia prático de Capivari, o principal polo turístico de Campos do Jordão: atrações, gastronomia, dicas de transporte e melhores épocas para visitar."
-category: Campos do Jordão
+category: Turismo
 tags:
   - Capivari
   - Campos do Jordão
