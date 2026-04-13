@@ -2,7 +2,7 @@
 layout: post
 title: "Onde estacionar no Capivari, Campos do Jordão"
 description: "Guia prático sobre opções e dicas para estacionar no bairro Capivari, no centro turístico de Campos do Jordão. Inclui alternativas, orientações de segurança e FAQ rápido."
-category: Guias
+category: turismo
 tags:
   - Campos do Jordão
   - Capivari
