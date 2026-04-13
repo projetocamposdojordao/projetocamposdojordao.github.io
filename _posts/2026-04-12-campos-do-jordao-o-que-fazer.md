@@ -2,7 +2,7 @@
 layout: post
 title: "Campos do Jordão: o que fazer"
 description: "Guia prático sobre o que fazer em Campos do Jordão: principais atrações, passeios na natureza, gastronomia, compras e dicas para aproveitar a cidade o ano inteiro."
-category: Turismo
+categories: Turismo
 tags:
   - Campos do Jordão
   - Turismo
