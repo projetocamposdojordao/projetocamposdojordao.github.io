@@ -2,7 +2,7 @@
 layout: post
 title: "Parque Capivari Campos do Jordão"
 description: "Guia completo e otimizado para SEO local sobre o Parque Capivari em Campos do Jordão: o que ver, como chegar, dicas práticas, acessibilidade e FAQ curto para visitantes."
-category: Atrações
+category: turismo
 tags:
   - Campos do Jordão
   - Parque Capivari
