@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Pontremoli Campos do Jordão: Guia prático para visitar"
 description: "Conheça o Restaurante Pontremoli em Campos do Jordão: o que esperar do cardápio, ambiente, dicas de visita e perguntas frequentes para planejar sua refeição na serra."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - Restaurantes
