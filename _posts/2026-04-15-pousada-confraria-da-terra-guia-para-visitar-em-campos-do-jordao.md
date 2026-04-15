@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Confraria da Terra — Guia para visitar em Campos do Jordão"
 description: "Guia prático sobre a Pousada Confraria da Terra em Campos do Jordão: o que esperar, dicas de localização, atrações próximas e perguntas frequentes para planejar sua estadia."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - pousada
