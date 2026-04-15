@@ -2,7 +2,8 @@
 layout: post
 title: "Clima em Campos do Jordão hoje: como consultar e o que esperar"
 description: "Saiba como verificar o clima em Campos do Jordão hoje, entenda os padrões sazonais, receba dicas de roupas e atividades, e descubra onde conferir previsão atualizada antes de viajar."
-category: Clima
+category: clima
+published: true
 tags:
   - Campos do Jordão
   - clima
