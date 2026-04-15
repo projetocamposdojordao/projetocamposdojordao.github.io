@@ -2,7 +2,7 @@
 layout: post
 title: "Morro do Elefante — O mirante imperdível de Campos do Jordão"
 description: "Guia prático para visitar o Morro do Elefante em Campos do Jordão: como chegar, o que ver, dicas de fotografia e orientações úteis para aproveitar o mirante."
-category: Turismo
+category: turismo
 tags:
   - Campos do Jordão
   - Morro do Elefante
