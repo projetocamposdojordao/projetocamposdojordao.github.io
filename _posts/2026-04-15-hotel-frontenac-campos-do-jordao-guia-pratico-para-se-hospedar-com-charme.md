@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Frontenac Campos do Jordão: guia prático para se hospedar com charme"
 description: "Conheça o Hotel Frontenac em Campos do Jordão: localização, estrutura, atrações próximas, dicas de reserva e perguntas frequentes para planejar sua estadia."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - Hotel Frontenac
