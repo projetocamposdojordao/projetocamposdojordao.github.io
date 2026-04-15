@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Libertango Campos do Jordão: o que esperar e como aproveitar"
 description: "Guia sobre o Restaurante Libertango em Campos do Jordão: ambiente, cardápio, dicas de visita e FAQ para ajudar turistas a planejar a experiência gastronômica."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurante
