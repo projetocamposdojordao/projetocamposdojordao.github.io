@@ -3,6 +3,7 @@ layout: post
 title: "Hotel Dan Inn Campos do Jordão"
 description: "Guia prático sobre o Hotel Dan Inn em Campos do Jordão: o que esperar, dicas de estadia, atrações próximas e perguntas frequentes para quem planeja visitar a cidade."
 category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - hotel
