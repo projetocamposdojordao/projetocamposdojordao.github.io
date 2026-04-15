@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Nacional Inn Campos do Jordão — Guia e Dicas para sua Estadia"
 description: "Guia prático sobre a Pousada Nacional Inn em Campos do Jordão: o que esperar, dicas de reserva, atrações próximas e FAQs para planejar sua viagem."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - Pousada Nacional Inn
