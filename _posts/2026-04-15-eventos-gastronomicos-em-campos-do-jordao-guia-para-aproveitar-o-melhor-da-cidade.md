@@ -2,7 +2,8 @@
 layout: post
 title: "Eventos gastronômicos em Campos do Jordão: guia para aproveitar o melhor da cidade"
 description: "Guia prático sobre eventos gastronômicos em Campos do Jordão: tipos de eventos, como se planejar, pratos típicos, onde acompanhar a programação e dicas locais para aproveitar com segurança."
-category: Gastronomia
+category: gastronomia
+published: true
 tags:
   - Campos do Jordão
   - gastronomia
