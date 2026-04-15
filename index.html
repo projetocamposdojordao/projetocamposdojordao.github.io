@@ -107,22 +107,33 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
         {% endfor %}
       </div>
 
-<nav class="pagination" aria-label="Paginação dos posts">
-  {% if paginator.previous_page %}
-    <a class="pagination-btn pagination-arrow" href="{{ paginator.previous_page_path | relative_url }}">← Anterior</a>
-  {% endif %}
+<div class="portal-pagination-wrap">
+  <nav class="portal-pagination" aria-label="Paginação dos posts">
+    {% if paginator.previous_page %}
+      <a class="portal-pagination-btn portal-pagination-prev" href="{{ paginator.previous_page_path | relative_url }}#ultimas-noticias">
+        ← Anterior
+      </a>
+    {% endif %}
 
-  <div class="pagination-numbers">
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="pagination-number is-active">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a class="pagination-number" href="{{ '/' | relative_url }}#ultimas-noticias">{{ page }}</a>
-      {% else %}
-        <a class="pagination-number" href="{{ site.paginate_path | replace: ':num', page | relative_url }}#ultimas-noticias">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-  </div>
+    <div class="portal-pagination-pages">
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <span class="portal-pagination-page is-active">{{ page }}</span>
+        {% elsif page == 1 %}
+          <a class="portal-pagination-page" href="{{ '/' | relative_url }}#ultimas-noticias">{{ page }}</a>
+        {% else %}
+          <a class="portal-pagination-page" href="{{ site.paginate_path | replace: ':num', page | relative_url }}#ultimas-noticias">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% if paginator.next_page %}
+      <a class="portal-pagination-btn portal-pagination-next" href="{{ paginator.next_page_path | relative_url }}#ultimas-noticias">
+        Próxima →
+      </a>
+    {% endif %}
+  </nav>
+</div>
 
   {% if paginator.next_page %}
     <a class="pagination-btn pagination-arrow" href="{{ paginator.next_page_path | relative_url }}#ultimas-noticias">Próxima →</a>
