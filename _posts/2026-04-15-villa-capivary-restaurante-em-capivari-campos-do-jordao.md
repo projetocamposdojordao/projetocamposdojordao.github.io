@@ -2,7 +2,7 @@
 layout: post
 title: "Villa Capivary: Restaurante em Capivari — Campos do Jordão"
 description: "Guia prático sobre o Villa Capivary, restaurante localizado na região de Capivari em Campos do Jordão. Informações sobre ambiente, experiência gastronômica, dicas para visita e perguntas frequentes."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - Capivari
