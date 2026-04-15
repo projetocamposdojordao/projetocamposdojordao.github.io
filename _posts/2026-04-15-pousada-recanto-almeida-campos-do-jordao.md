@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Recanto Almeida Campos do Jordão"
 description: "Guia prático sobre a Pousada Recanto Almeida em Campos do Jordão: localização, dicas de hospedagem, atrações próximas e perguntas frequentes para quem planeja a visita."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - Pousada Recanto Almeida
