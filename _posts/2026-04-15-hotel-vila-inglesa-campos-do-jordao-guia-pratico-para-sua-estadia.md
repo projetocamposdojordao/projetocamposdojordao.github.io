@@ -2,7 +2,7 @@
 layout: post
 title: "Hotel Vila Inglesa Campos do Jordão: guia prático para sua estadia"
 description: "Conheça o Hotel Vila Inglesa em Campos do Jordão: o que esperar, localização, atrações próximas, dicas de reserva e perguntas frequentes para planejar sua hospedagem."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - Hotel Vila Inglesa
