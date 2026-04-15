@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Chateau La Villette Campos do Jordão"
 description: "Guia sobre a Pousada Chateau La Villette em Campos do Jordão: o que esperar, localização, atrações próximas, dicas de reserva e perguntas frequentes para ajudar visitantes a planejar a estadia."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - pousada
