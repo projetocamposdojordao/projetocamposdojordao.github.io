@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Satélite Campos do Jordão: guia prático para sua estadia"
 description: "Conheça dicas e informações úteis para planejar sua hospedagem no Hotel Satélite em Campos do Jordão: localização, como escolher quarto, atrações próximas e recomendações locais."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - hotel
