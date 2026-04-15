@@ -84,13 +84,7 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
       <div class="cards-grid portal-cards">
         {% for post in site.posts limit:18 %}
 
-          {% if forloop.index == 7 %}
-            <div class="inline-ad-wrapper">
-             <a href="https://seu-link.com" target="_blank">
-  <img src="/assets/images/banner-inline.jpg" class="ad-img">
-</a>
-            </div>
-          {% endif %}
+          
 
           <article class="card portal-card">
             {% if post.image %}
