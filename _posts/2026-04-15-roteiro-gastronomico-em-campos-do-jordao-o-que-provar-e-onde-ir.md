@@ -2,7 +2,7 @@
 layout: post
 title: "Roteiro Gastronômico em Campos do Jordão: o que provar e onde ir"
 description: "Guia prático para montar um roteiro gastronômico em Campos do Jordão: pratos típicos, bairros para explorar, dicas e um FAQ curto para planejar sua experiência culinária na cidade."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - gastronomia
