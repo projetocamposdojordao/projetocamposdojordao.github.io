@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Villa D’Biagy Campos do Jordão"
 description: "Guia prático sobre a Pousada Villa D’Biagy em Campos do Jordão: o que esperar, dicas de hospedagem, como chegar, atrações próximas e perguntas frequentes. Conteúdo pensado para SEO local e para leitores que planejam uma viagem à cidade."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - pousada
