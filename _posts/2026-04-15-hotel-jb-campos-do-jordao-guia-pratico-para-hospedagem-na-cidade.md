@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel JB Campos do Jordão: Guia prático para hospedagem na cidade"
 description: "Conheça o Hotel JB em Campos do Jordão: localização, acomodações, comodidades e dicas para aproveitar a cidade. Conteúdo pensado para SEO local e viajantes que buscam hospedagem em Campos do Jordão."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - Hotel JB
