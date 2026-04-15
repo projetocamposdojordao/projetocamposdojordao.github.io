@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Le Renard Campos do Jordão"
 description: "Guia prático sobre o Hotel Le Renard em Campos do Jordão: localização, o que verificar antes de reservar, atrações próximas, dicas e FAQ para planejar sua estadia."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - Hotel Le Renard
