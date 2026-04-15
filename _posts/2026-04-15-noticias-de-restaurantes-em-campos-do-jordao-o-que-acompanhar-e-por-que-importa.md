@@ -2,7 +2,7 @@
 layout: post
 title: "Notícias de restaurantes em Campos do Jordão: o que acompanhar e por que importa"
 description: "Resumo das principais pautas sobre restaurantes em Campos do Jordão: tendências, novas aberturas, eventos gastronômicos, ingredientes locais e dicas para acompanhar as novidades."
-category: Gastronomia
+category: gastronomia
 tags:
   - restaurantes
   - Campos do Jordão
