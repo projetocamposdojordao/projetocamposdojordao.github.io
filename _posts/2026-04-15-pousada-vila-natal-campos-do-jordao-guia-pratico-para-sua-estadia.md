@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Vila Natal Campos do Jordão: guia prático para sua estadia"
 description: "Informações e dicas para planejar sua hospedagem na Pousada Vila Natal, em Campos do Jordão. O que observar, melhores épocas, atrações próximas e perguntas frequentes."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - Pousada Vila Natal
