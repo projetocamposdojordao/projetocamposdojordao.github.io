@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante La Gália — Guia para visitar em Campos do Jordão"
 description: "Guia prático sobre o Restaurante La Gália em Campos do Jordão: o que considerar antes de ir, como encaixar no roteiro local, dicas de visita e perguntas frequentes para turistas da região."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - Restaurante La Gália
