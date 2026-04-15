@@ -2,7 +2,7 @@
 layout: post
 title: "Hotel Toriba Campos do Jordão: guia completo para sua estadia"
 description: "Saiba o que esperar do Hotel Toriba em Campos do Jordão: localização, infraestrutura, gastronomia, atrações próximas e dicas práticas para aproveitar melhor sua visita."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - Hotel Toriba
