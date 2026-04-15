@@ -1210,3 +1210,69 @@ ul { padding-left: 1.2rem; }
     border-radius: 14px;
   }
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 36px;
+  flex-wrap: wrap;
+}
+
+.pagination-numbers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination-number,
+.pagination-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border: 1px solid #d9d1c7;
+  background: #ffffff;
+  color: #16324f;
+}
+
+.pagination-number:hover,
+.pagination-btn:hover {
+  background: #16324f;
+  color: #ffffff;
+  border-color: #16324f;
+}
+
+.pagination-number.is-active {
+  background: #16324f;
+  color: #ffffff;
+  border-color: #16324f;
+  cursor: default;
+}
+
+.pagination-arrow {
+  padding: 0 18px;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    gap: 10px;
+  }
+
+  .pagination-number,
+  .pagination-btn {
+    min-width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+    padding: 0 14px;
+  }
+}
