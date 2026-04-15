@@ -2,7 +2,7 @@
 layout: post
 title: "Teleférico Morro do Elefante — Guia completo de Campos do Jordão"
 description: "Tudo o que você precisa saber sobre o teleférico do Morro do Elefante em Campos do Jordão: experiência, dicas de visita, como chegar, atrações próximas e perguntas frequentes."
-category: Turismo
+category: turismo
 tags:
   - Campos do Jordão
   - Teleférico
