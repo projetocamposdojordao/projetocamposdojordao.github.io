@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Refúgio Alpino Campos do Jordão: Guia completo para sua estadia"
 description: "Conheça o Hotel Refúgio Alpino em Campos do Jordão: localização, comodidades, dicas de reserva e o que fazer nas proximidades para aproveitar ao máximo sua viagem."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - hotel
