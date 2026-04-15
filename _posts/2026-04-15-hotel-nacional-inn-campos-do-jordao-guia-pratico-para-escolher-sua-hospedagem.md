@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Nacional Inn Campos do Jordão: guia prático para escolher sua hospedagem"
 description: "Conheça o Hotel Nacional Inn Campos do Jordão e dicas práticas para reservar, o que fazer nas proximidades e como aproveitar sua estadia em Campos do Jordão."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - hotel
