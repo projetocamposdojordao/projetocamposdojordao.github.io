@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Chris Park — Guia de Hospedagem em Campos do Jordão"
 description: "Saiba o que considerar ao escolher o Hotel Chris Park em Campos do Jordão: localização, atrações próximas, dicas de hospedagem e perguntas frequentes para planejar sua viagem à Serra da Mantiqueira."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - hotel
