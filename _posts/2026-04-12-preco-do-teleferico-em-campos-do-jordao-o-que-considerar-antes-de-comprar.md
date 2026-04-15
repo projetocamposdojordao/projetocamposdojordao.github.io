@@ -2,7 +2,7 @@
 layout: post
 title: "Preço do teleférico em Campos do Jordão: o que considerar antes de comprar"
 description: "Guia prático sobre como entender o preço do teleférico em Campos do Jordão: fatores que influenciam o valor, tipos de bilhetes, dicas para economizar e onde checar tarifas atualizadas."
-category: Turismo
+category: turismo
 tags:
   - Campos do Jordão
   - teleférico
