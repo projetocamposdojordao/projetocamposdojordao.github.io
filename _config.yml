@@ -6,7 +6,13 @@ lang: pt-BR
 timezone: America/Sao_Paulo
 markdown: kramdown
 permalink: /:title/
-plugins: []
+
+paginate: 18
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-paginate
+
 collections:
   posts:
     output: true
