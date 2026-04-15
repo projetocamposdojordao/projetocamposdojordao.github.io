@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Villa Hegus Campos do Jordão"
 description: "Guia prático sobre a Pousada Villa Hegus em Campos do Jordão, com informações sobre localização, o que esperar, dicas de reserva e FAQ para quem planeja visitar a região."
-category: Acomodações
+category: hospedagem
 tags:
   - Campos do Jordão
   - Pousada
