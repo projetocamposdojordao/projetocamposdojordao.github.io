@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Europa Campos do Jordão: guia completo para sua estadia"
 description: "Guia prático sobre a Pousada Europa em Campos do Jordão: o que esperar, como chegar, atrações próximas, dicas de reserva e FAQ para organizar sua viagem."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - pousada
