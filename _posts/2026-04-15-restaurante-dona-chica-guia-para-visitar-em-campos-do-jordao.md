@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Dona Chica — Guia para visitar em Campos do Jordão"
 description: "Conheça o Restaurante Dona Chica em Campos do Jordão: atmosfera, o que esperar do cardápio, dicas para chegar e recomendações para aproveitar a experiência gastronômica na cidade."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurante
