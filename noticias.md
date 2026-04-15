@@ -5,13 +5,7 @@ permalink: /noticias/
 description: Últimas notícias e atualizações de Campos do Jordão.
 ---
 
-<section class="top-ad">
-  <div class="container">
-    <a href="#" class="ad-box ad-box--top">
-      <span>Banner Notícias 970x90</span>
-    </a>
-  </div>
-</section>
+
 
 <section class="page-hero compact">
   <div class="container">
