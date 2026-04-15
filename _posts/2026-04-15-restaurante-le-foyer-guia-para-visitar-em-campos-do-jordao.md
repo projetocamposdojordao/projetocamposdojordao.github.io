@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Le Foyer — Guia para visitar em Campos do Jordão"
 description: "Conheça o que esperar do Restaurante Le Foyer em Campos do Jordão: ambiente, sugestões de menu, dicas de visita e combinações com passeios pela cidade. Conteúdo pensado para turistas e moradores que buscam uma experiência gastronômica na região."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - Le Foyer
