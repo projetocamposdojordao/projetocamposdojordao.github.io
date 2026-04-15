@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Safari Café — Campos do Jordão"
 description: "Guia prático sobre o Restaurante Safari Café em Campos do Jordão: o que esperar do menu, ambiente, dicas para visita e como incluir no seu roteiro pela cidade."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurantes
