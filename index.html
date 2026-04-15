@@ -4,8 +4,6 @@ title: Início
 description: Portal com notícias, turismo, eventos e guias sobre Campos do Jordão.
 ---
 
-
-
 <section class="hero-banner portal-hero">
   <div class="container hero-grid hero-grid-portal">
     <div class="hero-main">
@@ -77,18 +75,15 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
       <div class="section-heading">
         <div>
           <p class="eyebrow">Cobertura e conteúdo</p>
-          <h2>Últimos 18 posts</h2>
+          <h2>Últimos posts</h2>
         </div>
       </div>
 
       <div class="cards-grid portal-cards">
-        {% for post in site.posts limit:18 %}
-
-          
-
+        {% for post in paginator.posts %}
           <article class="card portal-card">
             {% if post.image %}
-              <a href="{{ post.url }}" class="card-thumb">
+              <a href="{{ post.url | relative_url }}" class="card-thumb">
                 <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
               </a>
             {% endif %}
@@ -97,7 +92,7 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
               <p class="tag">{{ post.category | default: 'Artigo' }}</p>
 
               <h3>
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
               </h3>
 
               {% if post.description %}
@@ -105,16 +100,27 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
               {% endif %}
 
               <div class="card-footer">
-                <span id="data-atual"></span>
-
-
-                <a href="{{ post.url }}">Ler mais</a>
+                <a href="{{ post.url | relative_url }}">Ler mais</a>
               </div>
             </div>
           </article>
-
         {% endfor %}
       </div>
+
+      <nav class="pagination">
+        {% if paginator.previous_page %}
+          <a class="pagination-btn" href="{{ paginator.previous_page_path | relative_url }}">← Anterior</a>
+        {% endif %}
+
+        <span class="pagination-info">
+          Página {{ paginator.page }} de {{ paginator.total_pages }}
+        </span>
+
+        {% if paginator.next_page %}
+          <a class="pagination-btn" href="{{ paginator.next_page_path | relative_url }}">Próxima →</a>
+        {% endif %}
+      </nav>
+
     </div>
   </div>
 </section>
@@ -143,5 +149,3 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
     </div>
   </div>
 </section>
-
-
