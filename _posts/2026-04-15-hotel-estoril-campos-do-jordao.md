@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Estoril Campos do Jordão"
 description: "Guia prático sobre o Hotel Estoril em Campos do Jordão: localização, o que esperar, atrações próximas, dicas de reserva e FAQ curto para visitantes."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - Hotel Estoril
