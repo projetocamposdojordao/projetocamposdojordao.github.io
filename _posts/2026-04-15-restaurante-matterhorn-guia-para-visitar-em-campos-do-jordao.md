@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Matterhorn — Guia para visitar em Campos do Jordão"
 description: "Guia prático sobre o Restaurante Matterhorn em Campos do Jordão: o que esperar, dicas para o cardápio, ambiente, como se preparar para a visita e FAQ curto para viajantes."
-category: Gastronomia
+category: gastronomia
 tags:
   - Restaurante Matterhorn
   - Campos do Jordão
