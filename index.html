@@ -107,19 +107,27 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
         {% endfor %}
       </div>
 
-      <nav class="pagination">
-        {% if paginator.previous_page %}
-          <a class="pagination-btn" href="{{ paginator.previous_page_path | relative_url }}">← Anterior</a>
-        {% endif %}
+<nav class="pagination" aria-label="Paginação dos posts">
+  {% if paginator.previous_page %}
+    <a class="pagination-btn pagination-arrow" href="{{ paginator.previous_page_path | relative_url }}">← Anterior</a>
+  {% endif %}
 
-        <span class="pagination-info">
-          Página {{ paginator.page }} de {{ paginator.total_pages }}
-        </span>
+  <div class="pagination-numbers">
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="pagination-number is-active">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a class="pagination-number" href="{{ '/' | relative_url }}#ultimas-noticias">{{ page }}</a>
+      {% else %}
+        <a class="pagination-number" href="{{ site.paginate_path | replace: ':num', page | relative_url }}#ultimas-noticias">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-        {% if paginator.next_page %}
-          <a class="pagination-btn" href="{{ paginator.next_page_path | relative_url }}">Próxima →</a>
-        {% endif %}
-      </nav>
+  {% if paginator.next_page %}
+    <a class="pagination-btn pagination-arrow" href="{{ paginator.next_page_path | relative_url }}#ultimas-noticias">Próxima →</a>
+  {% endif %}
+</nav>
 
     </div>
   </div>
