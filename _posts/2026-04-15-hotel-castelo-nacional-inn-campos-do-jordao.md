@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Castelo Nacional Inn Campos do Jordão"
 description: "Guia prático sobre o Hotel Castelo Nacional Inn em Campos do Jordão: localização, estrutura, dicas de reserva, atrações próximas e FAQ para quem planeja se hospedar na cidade."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - hotel
