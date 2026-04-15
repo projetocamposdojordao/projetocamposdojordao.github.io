@@ -2,7 +2,8 @@
 layout: post
 title: "Cantina Nonna Mimi Campos do Jordão: Guia prático para visitar"
 description: "Conheça a Cantina Nonna Mimi em Campos do Jordão: o que esperar, dicas de visita, sugestões de pratos e FAQ para planejar sua experiência gastronômica na cidade."
-category: Gastronomia
+category: gastronomia
+published: true
 tags:
   - Cantina Nonna Mimi
   - Campos do Jordão
