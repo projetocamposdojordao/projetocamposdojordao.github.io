@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Ludwig — Guia para visitar em Campos do Jordão"
 description: "Conheça o Restaurante Ludwig em Campos do Jordão: o que verificar antes de ir, dicas para aproveitar a experiência, como checar avaliações e sugestões para combinar a visita com passeios pela cidade."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - Restaurante Ludwig
