@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Savoy Campos do Jordão: guia de hospedagem e dicas locais"
 description: "Saiba o que considerar antes de reservar no Hotel Savoy em Campos do Jordão, atrações próximas, melhores épocas para visitar e dicas práticas para uma estadia tranquila."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - Hotel Savoy
