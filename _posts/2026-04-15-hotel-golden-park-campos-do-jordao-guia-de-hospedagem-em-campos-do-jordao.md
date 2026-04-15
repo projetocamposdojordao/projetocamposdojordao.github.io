@@ -2,7 +2,8 @@
 layout: post
 title: "Hotel Golden Park Campos do Jordão: guia de hospedagem em Campos do Jordão"
 description: "Informações e dicas para quem considera o Hotel Golden Park Campos do Jordão como opção de hospedagem em Campos do Jordão. Localização, atrações próximas, como reservar e perguntas frequentes."
-category: Hospedagem
+category: hospedagem
+published: true
 tags:
   - Campos do Jordão
   - hotéis
