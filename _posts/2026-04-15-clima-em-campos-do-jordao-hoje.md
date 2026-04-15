@@ -2,7 +2,8 @@
 layout: post
 title: "Clima em Campos do Jordão hoje"
 description: "Saiba como conferir o clima em Campos do Jordão hoje, entender as características meteorológicas da região e o que levar para aproveitar a cidade com segurança, independentemente do tempo."
-category: Clima
+category: clima
+published: true
 tags:
   - Clima Campos do Jordão
   - tempo hoje Campos do Jordão
