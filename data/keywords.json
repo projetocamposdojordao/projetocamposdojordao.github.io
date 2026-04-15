@@ -9,7 +9,6 @@
   {"keyword":"Restaurante Rancho Alegre Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"baixa"},
   {"keyword":"Restaurante Estância Grill Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"baixa"},
   {"keyword":"Restaurante Dona Tere Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"baixa"},
-
   {"keyword":"Pousada Alto da Montanha Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"média"},
   {"keyword":"Pousada Vale do Lajeado Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
   {"keyword":"Pousada Serra do Jordão Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"média"},
@@ -20,7 +19,6 @@
   {"keyword":"Pousada Jardim das Montanhas Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
   {"keyword":"Pousada Encanto da Serra Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
   {"keyword":"Pousada Cantinho do Capivari Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"média"},
-
   {"keyword":"Hotel Serra Azul Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
   {"keyword":"Hotel Mont Blanc Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"média"},
   {"keyword":"Hotel Vila Suíça Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
@@ -31,7 +29,6 @@
   {"keyword":"Hotel Alpes da Mantiqueira Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
   {"keyword":"Hotel Refúgio da Serra Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
   {"keyword":"Hotel Vale Encantado Campos do Jordão","category":"hospedagem","intent":"navegacional","priority":"baixa"},
-
   {"keyword":"novidades gastronômicas Campos do Jordão 2026","category":"notícias","intent":"informacional","priority":"baixa"},
   {"keyword":"agenda de eventos Campos do Jordão 2026","category":"eventos","intent":"informacional","priority":"alta"},
   {"keyword":"o que fazer em Campos do Jordão roteiro completo","category":"turismo","intent":"informacional","priority":"alta"},
