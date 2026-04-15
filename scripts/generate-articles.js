@@ -61,7 +61,7 @@ for (const item of items) {
       },
       {
         role: "user",
-        content: `Crie um artigo sobre o tema: "${keyword}". O artigo deve ser pensado para um site em Jekyll sobre Campos do Jordão. Quero introdução, subtítulos H2, conclusão e FAQ curto.`
+        content: `Crie um artigo sobre o tema: "${keyword}". O artigo deve ser pensado para um site em Jekyll sobre Campos do Jordão. Quero introdução, subtítulos H2, conclusão e FAQ curto. Inclua em "category" uma das categorias a seguir: gastronomia, hospedagem, eventos, noticias, turismo e clima.`
       }
     ],
     response_format: {
