@@ -2,7 +2,7 @@
 layout: post
 title: "Teleférico do Parque Capivari — Guia completo para visitar em Campos do Jordão"
 description: "Conheça o teleférico do Parque Capivari em Campos do Jordão: como funciona, dicas práticas, acessibilidade, melhores horários e atrações próximas."
-category: Turismo
+category: turismo
 tags:
   - teleférico
   - Parque Capivari
