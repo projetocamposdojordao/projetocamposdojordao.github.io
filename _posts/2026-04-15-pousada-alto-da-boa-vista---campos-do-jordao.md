@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Alto da Boa Vista - Campos do Jordão"
 description: "Conheça a Pousada Alto da Boa Vista em Campos do Jordão: charme serrano, acomodações aconchegantes e dicas para aproveitar a estadia na região."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - pousada
