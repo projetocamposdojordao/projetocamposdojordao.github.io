@@ -2,7 +2,8 @@
 layout: post
 title: "Choperia Baden Baden em Campos do Jordão: guia para aproveitar o chope e a gastronomia local"
 description: "Saiba o que esperar da Choperia Baden Baden em Campos do Jordão: ambiente, tipos de chope, harmonização, dicas de visita e como aproveitar durante a alta temporada."
-category: Gastronomia
+category: gastronomia
+published: true
 tags:
   - Baden Baden
   - Choperia
