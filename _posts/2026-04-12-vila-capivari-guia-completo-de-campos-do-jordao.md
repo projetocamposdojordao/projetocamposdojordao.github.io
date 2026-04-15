@@ -2,7 +2,7 @@
 layout: post
 title: "Vila Capivari — Guia Completo de Campos do Jordão"
 description: "Descubra o que fazer na Vila Capivari, o coração turístico de Campos do Jordão: gastronomia, compras, atrações e dicas práticas para aproveitar a região."
-category: Guia Local
+category: turismo
 tags:
   - Vila Capivari
   - Campos do Jordão
