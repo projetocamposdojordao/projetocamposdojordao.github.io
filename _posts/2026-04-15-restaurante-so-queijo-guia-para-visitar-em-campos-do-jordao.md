@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Só Queijo — Guia para visitar em Campos do Jordão"
 description: "Guia prático sobre o Restaurante Só Queijo em Campos do Jordão: o que esperar, recomendações para aproveitar a visita, dicas locais e FAQ rápido para planejar sua ida."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurante
