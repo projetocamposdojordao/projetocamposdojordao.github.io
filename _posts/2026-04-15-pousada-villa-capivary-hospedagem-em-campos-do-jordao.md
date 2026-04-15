@@ -2,7 +2,7 @@
 layout: post
 title: "Pousada Villa Capivary — Hospedagem em Campos do Jordão"
 description: "Guia prático sobre a Pousada Villa Capivary em Campos do Jordão: o que esperar, comodidades comuns, atrações próximas, dicas de reserva e FAQ curto para planejar sua estadia."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - pousada
