@@ -26,7 +26,7 @@ permalink: /hospedagem/
       </div>
     </div>
 
-    {% assign stay_posts = site.posts | where: "category", "hospedagem" %}
+    {% assign stay_posts = site.categories.hospedagem %}
 
     {% if stay_posts.size == 0 %}
       <p>Ainda não há posts nesta categoria.</p>
