@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Krokodillo Campos do Jordão: guia completo para visitantes"
 description: "Conheça o Restaurante Krokodillo em Campos do Jordão: ambiente, experiência gastronômica, dicas para visitar e perguntas frequentes para quem planeja conhecer esse endereço na cidade."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - Restaurante
