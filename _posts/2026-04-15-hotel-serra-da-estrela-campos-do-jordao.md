@@ -2,7 +2,7 @@
 layout: post
 title: "Hotel Serra da Estrela Campos do Jordão"
 description: "Guia prático sobre o Hotel Serra da Estrela em Campos do Jordão: localização, comodidades, atrações próximas, dicas de reserva e FAQ para visitantes."
-category: Hospedagem
+category: hospedagem
 tags:
   - Campos do Jordão
   - Hotel Serra da Estrela
