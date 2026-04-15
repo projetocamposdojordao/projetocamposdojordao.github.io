@@ -1,4 +1,8 @@
 [
+  {"keyword":"Restaurante Empório São Benedito Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"média"},
+  {"keyword":"Restaurante Baronesa Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"média"},
+  {"keyword":"Restaurante Picanha na Pedra Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"alta"},
+  {"keyword":"Restaurante Villa di Phoenix Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"baixa"},
   {"keyword":"Restaurante Cantinho do Frango Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"baixa"},
   {"keyword":"Restaurante La Terrasse Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"média"},
   {"keyword":"Restaurante Café no Bosque Campos do Jordão","category":"gastronomia","intent":"navegacional","priority":"média"},
