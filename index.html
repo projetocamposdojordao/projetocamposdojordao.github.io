@@ -105,7 +105,13 @@ description: Portal com notícias, turismo, eventos e guias sobre Campos do Jord
               {% endif %}
 
               <div class="card-footer">
-                <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+                <span id="data-atual"></span>
+
+<script>
+  const hoje = new Date();
+  const dataFormatada = hoje.toLocaleDateString('pt-BR');
+  document.getElementById('data-atual').textContent = dataFormatada;
+</script>
                 <a href="{{ post.url }}">Ler mais</a>
               </div>
             </div>
