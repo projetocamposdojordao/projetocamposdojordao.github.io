@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Harry Pisek — Guia para visitantes em Campos do Jordão"
 description: "Conheça o Restaurante Harry Pisek em Campos do Jordão: o que esperar, dicas práticas para sua visita, sugestões sobre ambiente e cardápio e respostas rápidas às dúvidas mais comuns."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurante
