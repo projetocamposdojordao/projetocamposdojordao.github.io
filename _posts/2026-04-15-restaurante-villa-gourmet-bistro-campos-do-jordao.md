@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Villa Gourmet Bistrô Campos do Jordão"
 description: "Guia completo sobre o Restaurante Villa Gourmet Bistrô em Campos do Jordão: o que esperar do cardápio, ambiente, dicas para visitar e perguntas frequentes para quem planeja incluir o bistrô no roteiro pela cidade."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurante
