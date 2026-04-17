@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Sabor da Montanha — Campos do Jordão"
 description: "Guia completo sobre o Restaurante Sabor da Montanha em Campos do Jordão: ambiente, sugestões de pratos, dicas de reserva e informações úteis para visitantes."
-category: Gastronomia
+category: gastronomia
 tags:
   - Restaurante
   - Campos do Jordão
