@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Quinta do Olivardo | Campos do Jordão"
 description: "Guia do Restaurante Quinta do Olivardo em Campos do Jordão: o que esperar do cardápio, ambiente, dicas para visita e perguntas frequentes para planejar sua experiência gastronômica na serra."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurante
