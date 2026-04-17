@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Parque da Cerveja Campos do Jordão: guia completo para visitantes"
 description: "Conheça o Restaurante Parque da Cerveja em Campos do Jordão: ambiente, cardápio, dicas de visita e atrações próximas para aproveitar ao máximo sua experiência gastronômica na cidade."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - restaurante
