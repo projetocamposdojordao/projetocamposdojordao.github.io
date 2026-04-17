@@ -3,6 +3,7 @@ layout: post
 title: "Feriado de Tiradentes em Campos do Jordão: clima frio, atrações e o que fazer"
 description: "Descubra como aproveitar o feriado de Tiradentes em Campos do Jordão: clima típico de serra, principais atrações, agenda e dicas práticas para curtir a cidade."
 category: turismo
+image: /assets/images/banner-footer.jpg
 tags:
   - Campos do Jordão
   - feriado de Tiradentes
