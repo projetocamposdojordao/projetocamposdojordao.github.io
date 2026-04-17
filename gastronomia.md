@@ -3,12 +3,8 @@ layout: default
 title: Gastronomia
 description: Restaurantes, cafés, bares e onde comer bem em Campos do Jordão.
 permalink: /gastronomia/
-pagination:
-  enabled: true
-  category: gastronomia
-  per_page: 12
-  permalink: "/page/:num/"
 ---
+
 <section class="hero-banner page-hero">
   <div class="container">
     <div class="page-hero-card">
@@ -30,11 +26,13 @@ pagination:
       </div>
     </div>
 
-    {% if paginator.posts == empty %}
+    {% assign food_posts = site.posts | where: "category", "gastronomia" %}
+
+    {% if food_posts.size == 0 %}
       <p>Ainda não há posts nesta categoria.</p>
     {% else %}
       <div class="cards-grid portal-cards">
-        {% for post in paginator.posts %}
+        {% for post in food_posts limit:12 %}
           <article class="card portal-card">
             {% if post.image %}
               <a href="{{ post.url | relative_url }}">
@@ -57,30 +55,6 @@ pagination:
           </article>
         {% endfor %}
       </div>
-
-      {% if paginator.total_pages > 1 %}
-        <nav class="pagination">
-          {% if paginator.previous_page %}
-            <a class="pagination-btn prev" href="{{ paginator.previous_page_path | relative_url }}">← Anterior</a>
-          {% endif %}
-
-          <div class="pagination-numbers">
-            {% for page in (1..paginator.total_pages) %}
-              {% if page == paginator.page %}
-                <span class="pagination-number active">{{ page }}</span>
-              {% elsif page == 1 %}
-                <a class="pagination-number" href="{{ '/gastronomia/' | relative_url }}">{{ page }}</a>
-              {% else %}
-                <a class="pagination-number" href="{{ site.paginate_path | replace: ':num', page | replace: 'blog', 'gastronomia' | relative_url }}">{{ page }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
-
-          {% if paginator.next_page %}
-            <a class="pagination-btn next" href="{{ paginator.next_page_path | relative_url }}">Próxima →</a>
-          {% endif %}
-        </nav>
-      {% endif %}
     {% endif %}
   </div>
 </section>
