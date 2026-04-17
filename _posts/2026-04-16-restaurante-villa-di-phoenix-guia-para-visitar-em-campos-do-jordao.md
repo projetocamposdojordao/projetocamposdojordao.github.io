@@ -3,7 +3,7 @@ layout: post
 title: "Restaurante Villa di Phoenix | Guia para visitar em Campos do Jordão"
 description: "Saiba o que esperar ao visitar o Restaurante Villa di Phoenix em Campos do Jordão: dicas de deslocamento, sugestões para aproveitar o ambiente e orientações práticas antes da visita."
 category: gastronomia
-image: /assets/images/restaurante-villa-di-phoenix.jpg
+image: /assets/images/Villa-di-Phoenix.jpeg
 tags:
   - Campos do Jordão
   - restaurante
