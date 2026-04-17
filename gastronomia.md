@@ -11,7 +11,7 @@ permalink: /gastronomia/
       <p class="eyebrow">Sabores da serra</p>
       <h1>Gastronomia em Campos do Jordão</h1>
       <p class="lead">
-        Restaurantes, cafés, chocolaterias, bares, cervejarias e lugares para comer bem em Campos do Jordão.
+        kjçbbjvkgjhg
       </p>
     </div>
   </div>
