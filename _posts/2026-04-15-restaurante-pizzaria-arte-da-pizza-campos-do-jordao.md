@@ -2,7 +2,7 @@
 layout: post
 title: "Restaurante Pizzaria Arte da Pizza Campos do Jordão"
 description: "Guia local sobre a Pizzaria Arte da Pizza em Campos do Jordão: ambiente, cardápio, dicas para visitar, como chegar e FAQ para planejar sua experiência gastronômica."
-category: Gastronomia
+category: gastronomia
 tags:
   - Campos do Jordão
   - pizzaria
