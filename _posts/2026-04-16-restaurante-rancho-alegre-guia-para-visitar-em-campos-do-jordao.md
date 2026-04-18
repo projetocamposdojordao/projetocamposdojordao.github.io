@@ -3,7 +3,7 @@ layout: post
 title: "Restaurante Rancho Alegre — Guia para visitar em Campos do Jordão"
 description: "Saiba o que esperar do Restaurante Rancho Alegre em Campos do Jordão: ambiente, tipos de prato, dicas para visitar e perguntas frequentes para planejar sua refeição na serra."
 category: gastronomia
-image: /assets/images/rancho-alegre.jpeg
+image: /images/rancho-alegre.jpeg
 tags:
   - Campos do Jordão
   - Rancho Alegre
