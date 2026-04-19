@@ -3,7 +3,7 @@ layout: post
 title: "Restaurante Café no Bosque — Guia para visitar em Campos do Jordão"
 description: "Conheça o Restaurante Café no Bosque em Campos do Jordão: o que esperar do ambiente, do cardápio e dicas práticas para aproveitar a experiência gastronômica na cidade."
 category: gastronomia
-image: /assets/images/cafe-no-bosque.jpg
+image: /image/assets/images/cafe-no-bosque.jpg
 tags:
   - Campos do Jordão
   - restaurante
