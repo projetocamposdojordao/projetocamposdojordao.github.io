@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Restaurante Empório São Benedito — Campos do Jordão"
-description: "Guia prático e otimizado para SEO sobre o Restaurante Empório São Benedito em Campos do Jordão: ambiente, sugestões, dicas de reserva e FAQ para visitantes."
+description: "Guia prático sobre o Restaurante Empório São Benedito em Campos do Jordão: ambiente, sugestões, dicas de reserva e FAQ para visitantes."
 category: gastronomia
+image: /assets/images/emporio-sao-bento.jpg
 tags:
   - gastronomia
   - Campos do Jordão
