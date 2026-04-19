@@ -3,6 +3,7 @@ layout: post
 title: "Restaurante Picanha na Pedra — Campos do Jordão"
 description: "Guia prático sobre a experiência de saborear picanha na pedra em Campos do Jordão: o que é, por que é uma ótima pedida na serra, dicas de consumo, acompanhamentos e perguntas frequentes."
 category: gastronomia
+image: /assets/images/picanha-na-pedra.jpg
 tags:
   - picanha na pedra
   - restaurantes
