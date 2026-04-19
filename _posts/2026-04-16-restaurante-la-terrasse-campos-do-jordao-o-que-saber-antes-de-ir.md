@@ -3,7 +3,7 @@ layout: post
 title: "Restaurante La Terrasse Campos do Jordão: o que saber antes de ir"
 description: "Guia prático sobre o Restaurante La Terrasse em Campos do Jordão: ambiente, dicas para aproveitar a visita, sugestões de reserva e perguntas frequentes para quem planeja incluir o restaurante no roteiro."
 category: gastronomia
-image: /assets/images/la-terasse.jpeg
+image: /assets/images/la-terasse.jpg
 tags:
   - Campos do Jordão
   - restaurante
