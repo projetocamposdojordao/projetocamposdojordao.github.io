@@ -3,7 +3,7 @@ layout: post
 title: "Restaurante Estância Grill Campos do Jordão"
 description: "Guia prático sobre o Restaurante Estância Grill em Campos do Jordão: o que esperar, pratos, ambiente, dicas para visitar e FAQ para planejar sua refeição na serra."
 category: gastronomia
-image: /assets/images/estancia-grill.jpeg
+image: /assets/images/estancia-grill.jpg
 tags:
   - Campos do Jordão
   - restaurante
