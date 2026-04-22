@@ -2,7 +2,7 @@
 layout: post
 title: "Chocolate quente em Campos do Jordão: o guia divertido e quentinho"
 date: 2026-04-21
-categories: ["gastronomia"]
+category: ["gastronomia"]
 tags: ["gastronomia", "chocolate quente", "campos do jordao", "inverno", "viagem", "cafeterias", "roteiros"]
 description: "Guia para achar o melhor chocolate quente de Campos do Jordão: estilos, onde provar, como pedir e roteiros para curtir o frio sem fila."
 image: "/assets/images/chocolate-quente-campos-do-jordao.png"
