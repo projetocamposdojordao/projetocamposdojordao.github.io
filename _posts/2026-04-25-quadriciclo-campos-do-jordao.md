@@ -2,7 +2,7 @@
 layout: post
 title: "Quadriciclo em Campos do Jordão: aventura no mato, como andar e onde alugar"
 date: 2026-04-25
-categories: ["turismo"]
+category: ["turismo"]
 tags: ["turismo", "aventura", "campos do jordão", "quadriciclo", "trilhas", "ecoturismo", "montanha"]
 description: "Guia aventureiro do passeio de quadriciclo em Campos do Jordão: como andar, trilhas no mato, segurança e onde alugar para curtir as montanhas."
 image: "/assets/images/quadriciclo-campos-do-jordao.png"
