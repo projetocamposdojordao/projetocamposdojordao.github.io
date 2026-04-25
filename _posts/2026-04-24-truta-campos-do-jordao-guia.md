@@ -2,7 +2,7 @@
 layout: post
 title: "Truta em Campos do Jordão: onde comer, onde encontrar e como apreciar"
 date: 2026-04-24
-categories: ["gastronomia"]
+category: ["gastronomia"]
 tags: ["gastronomia", "campos do jordão", "truta", "mantiqueira", "onde comer", "melhores trutas", "como comer truta", "turismo gastronômico"]
 description: "Guia da truta em Campos do Jordão: onde comer, onde encontrar, como escolher e saborear, com dicas locais e características do peixe."
 image: "/assets/images/truta-campos-do-jordao-guia.png"
