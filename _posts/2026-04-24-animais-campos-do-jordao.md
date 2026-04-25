@@ -2,7 +2,7 @@
 layout: post
 title: "Animais Silvestres de Campos do Jordão: esquilos, pássaros e a riqueza da fauna e flora"
 date: 2026-04-24
-categories: ["turismo"]
+category: ["turismo"]
 tags: ["turismo", "campos do jordao", "fauna", "flora", "animais", "esquilo", "pássaros", "ecoturismo", "serra da mantiqueira", "observação de aves"]
 description: "Guia para observar esquilos, pássaros e a fauna e flora de Campos do Jordão com segurança, ética e os melhores pontos para ver animais."
 image: "/assets/images/animais-campos-do-jordao.png"
