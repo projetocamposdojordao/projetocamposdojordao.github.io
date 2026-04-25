@@ -2,7 +2,7 @@
 layout: post
 title: "Tirolesa em Campos do Jordão: aventura e ecoturismo na Mantiqueira"
 date: 2026-04-24
-categories: ["turismo"]
+category: ["turismo"]
 tags: ["turismo", "tirolesa", "campos do jordao", "serra da mantiqueira", "ecoturismo", "aventura", "natureza", "sustentabilidade"]
 description: "Guia para curtir tirolesa em Campos do Jordão com responsabilidade: melhores locais, quando ir, segurança e dicas de ecoturismo."
 image: "/assets/images/tirolesa-campos-do-jordao-ecoturismo.png"
