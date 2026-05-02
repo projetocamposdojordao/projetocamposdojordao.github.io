@@ -2,6 +2,8 @@
 
 Estrutura pronta para GitHub Pages + Jekyll
 
+https://dentistacamposdojordao.com.br
+
 ## Como publicar novos posts
 
 1. Entre na pasta `_posts`
